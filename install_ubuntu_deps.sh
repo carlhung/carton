@@ -1,7 +1,6 @@
 #/bin/bash
 
 set -ex
-
 if [ -x "$(command -v sudo)" ]; then
   sudo apt-get install zlib1g-dev libsqlite3-dev
 else
